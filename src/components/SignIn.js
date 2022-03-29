@@ -1,5 +1,5 @@
 import React from 'react'
-import { SiEthereum, SiXbox, SiMicrosoft, SiSteam, SiPlaystation } from "react-icons/si";
+import { SiEthereum } from "react-icons/si";
 import { BsInfoCircle } from "react-icons/bs";
 
 const SignIn = () => {
