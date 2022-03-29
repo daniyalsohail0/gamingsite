@@ -5,10 +5,10 @@ import { BsInfoCircle } from "react-icons/bs";
 const SignIn = () => {
   return (
     <div className='flex justify-center items-center min-h-screen w-full'>
-        <div className='md:w-3/5 md:h-3/4 flex md:flex-row flex-col justify-center items-center bg-black rounded m-4 p-4'>
+        <div className='md:w-3/5 md:h-3/4 flex md:flex-row flex-col justify-center items-center bg-black rounded-xl m-4 p-4 background'>
             <div className='w-3/4 md:w-1/2 h-auto m-2'>
                 <h1 className='text-white text-6xl font-extrabold md:text-center text-left'>
-                    THE FUTURE OF GAMING
+                    THE FUTURE OF GAMING.
                 </h1>
             </div>
             <div className='flex justify-center items-center'>
@@ -28,9 +28,9 @@ const SignIn = () => {
                         </div>
                         </div>
                     </div>
-                    <div className="p-5 sm:w-96 w-full flex flex-col justify-start items-center blue-glassmorphism">
-                        <input placeholder="User Name" name="userName" type="text" className='bg-indigo-400 rounded m-2 p-2 w-full' />
-                        <input placeholder="Password" name="password" type="text" className='bg-indigo-400 rounded m-2 p-2 w-full' />
+                    <div className="p-5 sm:w-96 w-80 h-80 flex flex-col justify-start items-center blue-glassmorphism">
+                        <input placeholder="User Name" name="userName" type="text" className='bg-white rounded m-2 p-2 w-full' />
+                        <input placeholder="Password" name="password" type="text" className='bg-white rounded m-2 p-2 w-full' />
 
                         <div className="h-[1px] w-full bg-gray-400 my-2" />
 

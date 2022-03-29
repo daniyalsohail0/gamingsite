@@ -1,3 +1,7 @@
 .App {
-    background-image: radial-gradient(circle, #52057b, #540680, #550684, #570789, #58088e, #5c0c96, #610f9e, #6513a6, #6e19b3, #7720c1, #8026ce, #892cdc);
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.background {
+    background-image: linear-gradient(to right top, #0e185f, #2a0b3f, #280725, #1d0312, #000000);
 }
